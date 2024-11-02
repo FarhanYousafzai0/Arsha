@@ -119,6 +119,14 @@ opacity: 100%;
     position:absolute !important;
 left: 60%;
   }
+
+  .team-card{
+      transition: 0.4s all;
+
+  }
+  .team-card:hover{
+    transform: translateY(-10px);
+  }
 /* Media Quries-section */
 
 @media (max-width: 800px) {
