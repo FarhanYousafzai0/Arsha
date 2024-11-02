@@ -69,16 +69,6 @@ transform: translateY(-15px);
     transition: all 0.3s;
 }
 
-
-
-/* Media Quries-section */
-
-@media (max-width: 800px) {
- .middle{
-    text-align: center;
- }   
-}
-
 .grey{
     width: 150px;
     background-color: lightgrey;
@@ -102,3 +92,43 @@ transform: translateY(-15px);
     text-decoration: line-through;
   }
  
+  .fixed-img{
+    background: linear-gradient(rgba(79, 111, 160,0.5),rgba(79, 111, 160,0.5)),url("https://bootstrapmade.com/content/demo/Arsha/assets/img/cta-bg.jpg") fixed center center;
+  }
+
+  .overlay-text{
+    transform: translateY(30px);
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+  }
+
+  .img-underlay:hover .overlay-text{
+transform: translateY(0);
+opacity: 100%;
+
+  }
+  .img-underlay{
+  
+    overflow: hidden;
+  }
+  .fixed-card{
+    height: 450px !important;
+  }
+
+  .subscribe-btn{
+    position:absolute !important;
+left: 60%;
+  }
+/* Media Quries-section */
+
+@media (max-width: 800px) {
+ .middle{
+    text-align: center;
+ }   
+}
+
+@media screen and (max-width: 590px) {
+    .team-img{   width: 30%;}
+ 
+
+}
